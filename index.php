@@ -7,9 +7,9 @@
             <div id="title">
                 <h1>Team Rocket</h1>
             </div>
-            <form method="post" action="search.php">
-                <input type="text" title="search_bar" value="Search Trainers">
-                <input type="button" title="button" value="Go!"><br>
+            <form action="search.php" method="post">
+                <input type="text" name="name" value="Search Trainers">
+                <input type="submit" title="submit" value="Go!"><br>
             </form>
         </div>
     </body>
