@@ -1,3 +1,7 @@
+html{
+    background-color: #000;
+}
+
 #container {
     width: 100%;
     background-color: #f0f;
@@ -21,12 +25,15 @@ table {
     text-align: center;
     width: 66%;
     margin: auto;
+    padding: 1%;
     background-color: #ff0;
 }
 
-#trainer_name{
+#trainer h1{
     font-size: 48px;
+    margin: auto;
     color:#0f0;
+    padding: 10px;
     text-align: center;
 }
 
@@ -35,16 +42,22 @@ img {
 }
 
 #trainer ul {
+    margin: auto;
     list-style: none;
+    padding: 20px;
 }
 
 #trainer ul li {
+    padding: 1% 5%;
     display: inline;
-    padding: 10px;
-    
+    font-size: 18px;
+    color:#fff;
+    background-color: #abc123;
 }
 
 #trainer{
     background-color:#00f;
     text-align: center;
+    width: 66%;
+    margin:auto;
 }

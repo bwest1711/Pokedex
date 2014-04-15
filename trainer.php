@@ -8,7 +8,7 @@
     <body>
         <div id="container">
             <div id="trainer">
-                <h1 id="trainer_name"><?php echo $_SESSION['name']?></h1>
+                <h1><?php echo $_SESSION['name']?></h1>
                 <ul>
                     <li><?php echo $_SESSION['hometown']?></li>
                     <li><?php echo $_SESSION['gender'] ?></li>
