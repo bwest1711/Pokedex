@@ -1,7 +1,6 @@
-<html>
-<head>
-    <?php include('includes/head.php')?>
-</head>
-<body>
-</body>
-</html>
+<?php
+    echo $name = $_POST['name'];
+    
+?> 
+
+<
