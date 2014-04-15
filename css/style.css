@@ -10,3 +10,19 @@
 #search_area {
     align-content: center;
 }
+
+#poke_name{
+    padding:10px;
+}
+
+table {
+    text-align: center;
+    width: 66%;
+    margin: auto;
+}
+
+#trainer_name{
+    font-size: 48px;
+    color:#0f0;
+    text-align: center;
+}
