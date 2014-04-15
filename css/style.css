@@ -1,6 +1,6 @@
 #container {
-    margin: auto;
-    width: 50%;
+    width: 100%;
+    background-color: #f0f;
 }
 
 #title{
@@ -9,20 +9,42 @@
 
 #search_area {
     align-content: center;
+    width: 50%;
+    margin: auto;
 }
 
 #poke_name{
-    padding:10px;
+    padding: 0px 10px;
 }
 
 table {
     text-align: center;
     width: 66%;
     margin: auto;
+    background-color: #ff0;
 }
 
 #trainer_name{
     font-size: 48px;
     color:#0f0;
+    text-align: center;
+}
+
+img {
+    padding:15px;
+}
+
+#trainer ul {
+    list-style: none;
+}
+
+#trainer ul li {
+    display: inline;
+    padding: 10px;
+    
+}
+
+#trainer{
+    background-color:#00f;
     text-align: center;
 }
