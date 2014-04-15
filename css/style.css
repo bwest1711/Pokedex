@@ -1,0 +1,12 @@
+#container {
+    margin: auto;
+    width: 50%;
+}
+
+#title{
+    text-align: center;
+}
+
+#search_area {
+    align-content: center;
+}
