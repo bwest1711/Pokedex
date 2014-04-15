@@ -11,9 +11,9 @@
                 <h1 id="trainer_name"><?php echo $_SESSION['name']?></h1>
                 <ul>
                     <li><?php echo $_SESSION['hometown']?></li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
+                    <li><?php echo $_SESSION['gender'] ?></li>
+                    <li><?php echo $_SESSION['phone_number']?></li>
+                    <li><?php echo $_SESSION['moms_name']?></li>
                 </ul>
             </div>
             <table>
