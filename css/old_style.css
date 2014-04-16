@@ -1,0 +1,93 @@
+html{
+    background-color:#000;
+    font-family: 'Special Elite', cursive;
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    padding: 1%;
+}
+
+#container h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    color: #fff;
+}
+
+#search_area {
+    align-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+#poke_name{
+    padding: 0px 10px;
+}
+
+table {
+    text-align: center;
+    width: 66%;
+    margin: 1% auto;
+    padding: 2%;
+    background-color: #ff0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #000;
+}
+
+#trainer h1{
+    font-size: 48px;
+    margin: auto;
+    color:#0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    padding:15px;
+}
+
+#trainer ul {
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+}
+
+#trainer ul li {
+    padding: 1% 3%;
+    display: inline;
+    font-size: 14px;
+    color:#fff;
+}
+
+#trainer{
+    background-color:#00f;
+    text-align: center;
+    width: 66%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #000;
+}
+
+input{
+    float:right;
+    clear: both;
+}
+form {
+    width: 25%;
+    margin:auto;
+    background-color: #999;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #000;
+    align-content: center;
+}
+
+#form_header {
+    color:#fff;
+    text-align: center;
+}
