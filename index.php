@@ -4,11 +4,9 @@
     </head>
     <body>
         <div id="container">
-            <div id="title">
-                <h1>Team Rocket</h1>
-            </div>
+            <h1>Team Rocket</h1>
             <form action="search.php" method="post">
-                <input type="text" name="name" value="Search Trainers">
+                Enter your name: <input type="text" name="name">
                 <input type="submit" title="submit" value="Go!"><br>
             </form>
         </div>
