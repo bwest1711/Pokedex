@@ -10,10 +10,10 @@
             <div id="trainer">
                 <h1><?php echo $_SESSION['name']?></h1>
                 <ul>
-                    <li><?php echo $_SESSION['hometown']?></li>
-                    <li><?php echo $_SESSION['gender'] ?></li>
-                    <li><?php echo $_SESSION['phone_number']?></li>
-                    <li><?php echo $_SESSION['moms_name']?></li>
+                    <li>Hometown:  <?php echo $_SESSION['hometown']?></li>
+                    <li>Gender:  <?php echo $_SESSION['gender'] ?></li>
+                    <li>Phone Number: <?php echo $_SESSION['phone_number']?></li>
+                    <li>Mom's Name: <?php echo $_SESSION['moms_name']?></li>
                 </ul>
             </div>
             <table>
