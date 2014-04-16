@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background: RGBA(255, 203, 5, 1);
+}
+
+#home{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+#trainer{
+    text-align: center;
+    width: 66%;
+    margin: 20px auto;
+    background-color: #ff0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #999;
+    border: 1px solid #f00;
+}
+
+#trainer table{
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+#trainer table tr td {
+    padding: 0px 15px;
+}
+
+#poke_info{
+    border: 1px solid #f00;
+    width: 66%;
+    margin:15px auto;
+    text-align: center;
+    background-color: RGBA(44, 113, 184, 1);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #999;
+}
+
+#register {
+    text-align: center;
+}
+
+#register h1{
+    padding: 5px;
+}
+
+#register table{
+    width: 35%;
+    margin: auto;
+    background-color: #999;
+    border-radius: 15px;
+    border: 1px solid #f00;
+    box-shadow: 0px 0px 10px #333
+}
+
+#register table tr td{
+    padding:10px;
+    font-weight: bold;
+}
+
+#register input[type=submit] {
+    width: 100%;
+}
+
+#register input[type=text] {
+    width:100%;
+}
