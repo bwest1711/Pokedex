@@ -3,7 +3,7 @@
         <?php include('includes/head.php') ?>
     </head>
     <body>
-        <div id="container">
+        <div id="home">
             <h1>Team Rocket</h1>
             <form action="search.php" method="post">
                 Enter your name: <input type="text" name="name">
