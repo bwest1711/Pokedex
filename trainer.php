@@ -9,14 +9,22 @@
         <div id="container">
             <div id="trainer">
                 <h1><?php echo $_SESSION['name']?></h1>
-                <ul>
-                    <li>Hometown:  <?php echo $_SESSION['hometown']?></li>
-                    <li>Gender:  <?php echo $_SESSION['gender'] ?></li>
-                    <li>Phone Number: <?php echo $_SESSION['phone_number']?></li>
-                    <li>Mom's Name: <?php echo $_SESSION['moms_name']?></li>
-                </ul>
+                <table>
+                    <tr>
+                        <td><b>Hometown</b></td>
+                        <td><b>Gender</b></td>
+                        <td><b>Phone Number</b></td>
+                        <td><b>Mom's Name</b></td>
+                    </tr>
+                    <tr>
+                        <td><?php echo $_SESSION['hometown']?></td>
+                        <td><?php echo $_SESSION['gender'] ?></td>
+                        <td><?php echo $_SESSION['phone_number']?></td>
+                        <td><?php echo $_SESSION['moms_name']?></td>
+                    </tr>
+                </table>
             </div>
-            <table>
+            <table id="poke_info">
                 <tr>
                     <td><h1 id="poke_name"><?php echo $_SESSION['pokemon'][0]?></h1></td>
                     <td><h1 id="poke_name"><?php echo $_SESSION['pokemon'][1]?></h1></td>
