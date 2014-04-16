@@ -5,16 +5,34 @@
     </head>
     <body>
         <div id="container">
-            <div id="form_header">
-                <h1>Register Here</h1>
-            </div>
             <form id="register" action="register.php" method="post">
-                Name: <input type="text" name="name" value="<?php echo $_SESSION['name']?>"> <br><br>
-                Hometown: <input type="text" name="hometown" value="<?php echo $hometown?>"> <br><br>
-                Gender(M/F): <input type="text" name="gender"value="<?php echo $gender?>"> <br><br>
-                Phone Number: <input type="text" name="phone_number" value="<?php echo $phone_number?>"> <br><br>
-                Mom's Name: <input type="text" name="moms_name" value="<?php echo $moms_name?>"> <br><br>
-                <input type="submit" name="submit" value="Submit!">
+                <h1> Register Here </h1>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="name" value="<?php echo $_SESSION['name']?>"></td>
+                    </tr>
+                    <tr>
+                        <td>Hometown:</td>
+                        <td><input type="text" name="hometown" value="<?php echo $hometown?>"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender (M/F):</td>
+                        <td><input type="text" name="gender"value="<?php echo $gender?>"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number: </td>
+                        <td><input type="text" name="phone_number" value="<?php echo $phone_number?>"></td>
+                    </tr>
+                    <tr>
+                        <td>Mom's Name: </td>
+                        <td><input type="text" name="moms_name" value="<?php echo $moms_name?>"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="submit" value="Submit!"></td>
+                    </tr>
+                    </table>
             </form>
         </div>
     </body>
